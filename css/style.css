@@ -59,30 +59,67 @@ main{
 .starter{
     text-align: center;
 }
+.starter > h1{
+    margin-top: 40px;
+}
+.starter > p{
+    margin: 40px;
+    color: #a8b2be;
+}
 .content{
     display: flex;
     justify-content: space-between;
 }
 .slide{
-    height: 450px;
-    width: 60%;
+    height: 600px;
+    width: 75%;
     border: 1px solid black;
     margin-right: 30px;
 }
-.form{
-    height: 450px;
-    width: 40%;
+.form-content{
+    height: 480px;
+    width: 22%;
     background-color: #edf0f4;
     border: 1px transparent;
     border-radius: 1%;
 }
+.form-content > header{
+    margin: 50px;
+}
+.form-content > header > p{
+    font-size: 11px;
+    color: #8193a8;
+}
 form{
     margin: 50px;
 }
+form > label{
+    font-size: 11px;
+    margin-bottom: 10px;
+}
 form > input{
-    height: 30px;
+    height: 40px;
+    width: 100%;
     border: 2px solid #c9d3dd;
-    border-radius: 2%;
+    border-radius: 4%;
+    margin-bottom: 13px;
+    margin-top: 4px;
+}
+form > select{
+    height: 40px;
+    width: 104%;
+    border: 2px solid #c9d3dd;
+    border-radius: 4%;
+}
+form > button{
+    margin-top: 12px;
+    height: 40px;
+    width: 105%;
+    font-weight: bolder;
+    background-color: #29323d;
+    color: white;
+    border: 1px solid #29323d;
+    border-radius: 4%;
 }
 .our-package-content{
     align-content: center;

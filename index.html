@@ -12,14 +12,16 @@
             </div>
 
             <nav>
-                <button class="home"><a href="#home">Home</a></button>
-                <button class="ourpackage"><a href="#ourpackage">Our Package</a></button>
+                <button onclick="window.location.href = '/';" class="home" id="home-btn">Home</button>
+                <button class="ourpackage"><a href="#our-package">Our Package</a></button>
                 <button class="callus">Call Us</button>
             </nav>
         </header>
+        
         <hr>
+
         <main>
-            <header class="starter" id="home">
+            <header class="starter">
                 <h1>Your Trusted Travel Agent's</h1>
 
                 <p>Your happiness is our happiness</p>
@@ -27,11 +29,14 @@
 
             <section class="content">
                 <div class="slide"></div>
-                <div class="form">
-                    <form>
+
+                <div class="form-content">
+                    <header class="form-opening">
                         <h4>Contact Us</h4>
                         <p>Sales akan menghubungkan anda 1x24 jam setelah data kami terima.</p>
-        
+                    </header>
+
+                    <form>
                         <label><b>Your Name:</b></label>
                         <br>
                         <input type="text">
@@ -43,9 +48,11 @@
                         <label><b>What are you interested in?</b></label>
                         <br>
                         <select>
-                            <option>Computer Engineering</option>
-                            <option>Computer Science</option>
+                            <option>Option 1</option>
+                            <option>Option 2</option>
                         </select>
+                        <br>
+                        <button>SEND</button>
                     </form>
                 </div>
             </section>
